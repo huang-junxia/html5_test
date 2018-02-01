@@ -1,0 +1,8 @@
+<html>
+<script type="text/javascript">
+  localStorage.setItem("demokey", "http://www.shiyanlou.com");
+  var dt=localStorage.getItem("demokey");
+  alert(dt);
+  alert(localStorage.length);
+</script>
+</html>
