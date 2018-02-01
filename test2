@@ -1,0 +1,8 @@
+<html>
+<script type="text/javascript">
+  sessionStorage.setItem("demokey", "http://blog.itjeek.com");
+  var dt=sessionStorage.getItem("demokey");
+  alert(dt);
+  alert(localStorage.length);
+</script>
+</html>
